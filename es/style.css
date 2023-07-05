@@ -1,0 +1,144 @@
+body{
+    background-color:transparent;
+    font-family: cursive;
+    color:transparent;
+    margin: 0;
+    padding: 0;
+    height: 950px;
+    background-image: url('https://www.bing.com/th/id/OGC.1ba4ae68731edb4c0ae6b9ef8c840f15?pid=1.7&rurl=https%3a%2f%2fmedia.giphy.com%2fmedia%2fhVJWTKAi6Xfiw%2fgiphy.gif&ehk=%2f76Ci2hycT%2fnC9OYYGnQn0G4BiNGJs977PCPXIS1sBI%3d');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size:cover;
+  }
+  
+  header {
+    background-color: rgba(34, 29, 31, 0.64);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .search-bar button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #FF5412;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+  
+  section#content {
+    background-color: rgba(34, 29, 31, 0.64);
+    padding: 20px;
+    text-align: center;
+    height: 800px;
+  }
+  
+  section#content h3, section#content p {
+    color: white;
+
+  }
+
+  .box {
+    background-color: transparent;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    text-transform: capitalize;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+  }
+   
+
+  h1 {
+    font-family:Arial, sans-serif;
+    font-size: 150px;
+    font-weight: bold;
+    color:#FF5412;
+  }
+
+  h2 {
+    font-family:Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color:White ;
+  }
+  .button {
+    display: inline-block;
+    padding: 15px 20px;
+    background-color:transparent;
+    color: white;
+    text-decoration: border;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: #A47551;
+  }
+
+  footer {
+    background-color: rgba(34, 29, 31, 0.64);
+    padding:20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+  }
+  
+  .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .social-media {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-media a {
+    display: flex;
+    align-items: center;
+    margin-right: 13px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  
+ 
+  

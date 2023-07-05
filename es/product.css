@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    background-color:transparent;
+    font-family: Arial, sans-serif;
+    color:transparent;
+    background-color:black;
+    
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    background-image: url('https://www.bing.com/th/id/OGC.1ba4ae68731edb4c0ae6b9ef8c840f15?pid=1.7&rurl=https%3a%2f%2fmedia.giphy.com%2fmedia%2fhVJWTKAi6Xfiw%2fgiphy.gif&ehk=%2f76Ci2hycT%2fnC9OYYGnQn0G4BiNGJs977PCPXIS1sBI%3d');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size:cover;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .search-bar button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #FF5412;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+  
+  section#content {
+    font-size: 13px;
+    text-align: center;
+    height: 800px;
+  }
+  
+  section#content h2 {
+    color:#FF5412;
+
+  }
+
+    section#content p {
+    color: white;
+
+  }
+
+
+  h1 {
+    font-family: 'normal';
+    font-size: 100px;
+    font-weight: bold;
+    color:#FF5412;
+  }
+
+  h2 {
+    font-family:Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color:#FF5412 ;
+  }
+
+  
+  .products:after {
+    margin-bottom: 30px;
+    clear: both;
+    display: table;
+  }
+  
+ 
+  .product {
+    float: right;
+    width: 33.33%;
+    padding: 5px;
+    width: 200px;
+    margin-left:0px;
+    margin-right:15px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(133, 133, 133, 0.1);
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product h2 {
+    font-size: 16px;
+    margin: 10px ;
+  }
+  
+  .product p {
+    font-size: 13px;
+    color: #6b6b6b;
+    margin-bottom: 10px;
+  }
+  
+ button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+
+  footer {
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+    background-image: url('https://www.bing.com/th/id/OGC.1ba4ae68731edb4c0ae6b9ef8c840f15?pid=1.7&rurl=https%3a%2f%2fmedia.giphy.com%2fmedia%2fhVJWTKAi6Xfiw%2fgiphy.gif&ehk=%2f76Ci2hycT%2fnC9OYYGnQn0G4BiNGJs977PCPXIS1sBI%3d');
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-size:cover;
+   
+  }
+  
+  .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .social-media {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-media a {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .subscribe-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .subscribe-input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  .subscribe-button {
+    padding: 5px 10px;
+    background-color: #FF5412;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+
+
+  
+
